@@ -1,4 +1,4 @@
-* [Start](en-US/)
+* [**Quick Start**](en-US/)
 * **Grammar**
 ** [Lexical Structure](en-US/lexical)
 ** [Types](en-US/types)
