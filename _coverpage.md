@@ -1,4 +1,4 @@
-![logo](misc/images/logo.png)
+![logo](https://raw.githubusercontent.com/Asixa/Dragonfly-docs/master/misc/images/logo.png)
 
 # **Dragonfly**
 
