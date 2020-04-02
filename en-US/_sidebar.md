@@ -1,5 +1,7 @@
 * [**Quick Start**](en-US/)
-* **Grammar**
+
+* **Language Guide**
+* **Language Reference**
 ** [Lexical Structure](en-US/lexical)
 ** [Types](en-US/types)
 ** [Expressions](en-US/expressions)
