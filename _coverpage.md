@@ -4,7 +4,7 @@
 
 > A Differentiable, GPU-Friendly Programming Language
 
-* **In development**
+* **In development, coming soon**
 
 
 [Get Started](/en-us/)
