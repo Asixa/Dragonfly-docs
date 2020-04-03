@@ -4,7 +4,7 @@
 
 > A Differentiable, GPU-Friendly Programming Language
 
-* based on LLVM
+* **In development**
 
 
 [Get Started](/en-us/)
