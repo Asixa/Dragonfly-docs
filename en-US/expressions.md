@@ -1,24 +1,11 @@
 # Expressions
 
 #### Unary Expression
-###### Prefix
-> `(` `)`\
-> `-` `!`  `~` *
-###### Postfix
-> `++` `--`
+> `Prefix` `Factor`\
+> `Factor` `Postfix`
 #### Binary Expression
+>`LHS` `binary_operator` `RHS`
 
->`.`\
->`*` `/` `%`*\
->`+` `-`\
->`<<` `>>` *\
->`>` `<` `>=` `<=`\
->`&` `^` `|` *\
->`==` `!=`\
->`||` `&&`\
->`? :`\
->`=`
->`/=` ` *= ` ` %=` `+=` `-=` `<<=` `>>=` `&=` `^=` `|=` *      
 #### Ternary Expression
 the `? :` expression
 

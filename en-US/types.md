@@ -8,32 +8,18 @@ There are three basic type and x complex type in dragonfly.
 > **Complex Type Type**
 > 
 
+### Basic types
 
-#### Number type
-a number can be defined as
-```js
-1               // Integer
-1.22             // Decimal
-0x00000001
-0X00000001      // Hexadecimal
-017             // Octal
-10e3            // scientific
-```
+> `number` `string` `bool`\
+> `int` `short` `long` `float` `double`\
+> `uint` `ushort` `ulong`\
+> `byte`
 
-#### String type
-```js
-"hello,world"
-"你好，世界"
-"👋,🌎"
-```
-#### Bool type
-`true` and `false`
-
-#### Tuple
+### Tuple
 ```
 let x: [string, number]
 ```
-#### Array
+### Array
 
 **[** `value` **,** `value` **]**
 
@@ -42,7 +28,7 @@ let x: [string, number]
 let a:number[]=1
 ```
 
-#### Tensor
+### Tensor
 Multidimensional Arrays or Matrices
 
 **[** `size` **,**  `size` **,**  `size`  **]**
@@ -61,10 +47,10 @@ let c:number[3,,3] = [[1,1,1],
                      [1,1,1]]
 ```
 
-#### Dictionary
+### Dictionary
 **[** `key` : `value` **,** `key` : `value` **]**
 
-#### Function
+### Function
 funtion is a type in dragonfly
 
 ```js

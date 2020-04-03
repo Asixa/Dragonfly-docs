@@ -7,8 +7,12 @@
 #### Variable Declaration
 > **var** `name` (**:** `type`)<sub>opt</sub> **=** `expression`
 #### Computed Variables and Computed Properties
-get{} set{}
 
+>**get** **{** `statements` **}**\
+>**set** **{** `statements` **}**
+
+>**get** `=>` `statements` \
+>**set** `=>` `statements`
 #### TypeDef
 > **typedef** `alias` **=** `type` 
 
@@ -29,18 +33,17 @@ or\
 > **deinit** **(**  <`type` `name`><sub>rpt opt</sub>  **)** <**:** `type`><sub>opt</sub> `function_body`
 
 #### Enumeration Declaration
-
+>**enum** `name`
+> **{** `name` **,** `name`<sub>rpt</sub> ... **}**
 #### Structure Declaration
-
+> **struct**  `name` **:** `inherit` **{** `declarations` **}**
 #### Class Declaration
-
+> **class**  `name` **:** `inherit_class` **{** `declarations` **}**
 #### Protocol(Interface) Declaration
-
-
-
-
+> **interface**  `name` **:** `inherit_interface` **{** `declarations` **}**
 #### Extension Declaration
-> **extension**  `type` **{** `declarations` **}**
+> **extension**  `type` **{** declarations **}**
 #### Subscript Declaration?
 
 #### Operator Declaration
+> **operator**  `op`  **(**  <`type` `name`><sub>rpt opt</sub>  **)** **:** `type` `function_body`
