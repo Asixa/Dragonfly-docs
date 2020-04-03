@@ -7,7 +7,7 @@
 * based on LLVM
 
 
-[Get Started](/en-US/)
+[Get Started](/en-us/)
 [GitHub](https://github.com/Asixa/dragonfly/)
 [Dowload](#)
 
